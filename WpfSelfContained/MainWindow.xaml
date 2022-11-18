@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+		<StackPanel>
+			<Button x:Name="btSample">Sample button</Button>
+			<DockPanel>
+				<TextBlock Text="Test:" Margin="0,0,2,0" />
+				<TextBox x:Name="tbSample" />
+			</DockPanel>
+		</StackPanel>
     </Grid>
 </Window>
